@@ -58,7 +58,7 @@ class AbsenController extends Controller
             'id_status_absen' => 'required',
         ]);
         $data = [
-            'id_class_absen' => 'c3f8cb', // menggunakan value $idClass
+            'id_class_absen' => '492e35', // menggunakan value $idClass
             'id_user' => auth()->user()->id,
             'id_status_absen' => Request()->id_status_absen,
             'tgl_absen' => date('l, d M Y'),
